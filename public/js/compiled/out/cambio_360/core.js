@@ -44,8 +44,7 @@ return document.body.appendChild(cambio_360.core.renderer.domElement);
 cambio_360.core.set_render_type = (function cambio_360$core$set_render_type(type){
 return cljs.core.reset_BANG_.call(null,cambio_360.core.app_state,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"render-type","render-type",-426326747),type], null));
 });
-cambio_360.core.controls = (new THREE.OrbitControls(cambio_360.core.camera));
-cambio_360.core.controls.enableZoom = false;
+cambio_360.core.controls = (new THREE.DeviceOrientationControls(cambio_360.core.camera));
 cambio_360.core.set_camera_position = (function cambio_360$core$set_camera_position(){
 return (cambio_360.core.camera["position"]["z"] = (200));
 });
@@ -114,4 +113,4 @@ return cambio_360.core.animate.call(null);
 });
 window.onload = cambio_360.core.main;
 
-//# sourceMappingURL=core.js.map?rel=1544232468045
+//# sourceMappingURL=core.js.map?rel=1544241694548

@@ -32,15 +32,15 @@
 
 (defn set-renderer []
   (.setSize renderer js/window.innerWidth js/window.innerHeight)
-  (.appendChild js/document.body (.-domElement renderer)))
+  (.appendChild document.body (.-domElement renderer)))
 
 (defn set-render-type [type]
   (reset! app-state {:render-type type}))
 
-(def controls (js/THREE.OrbitControls. camera))
-(set! (.-enableZoom controls) false)
+;; (def controls (js/THREE.OrbitControls. camera))
+;; (set! (.-enableZoom controls) false)
 
-;; (def controls (js/THREE.DeviceOrientationControls. camera))
+(def controls (js/THREE.DeviceOrientationControls. camera))
 
 ;; (def controls (js/THREE.PointerLockControls. camera))
 
