@@ -111,6 +111,6 @@ cambio_360.core.scene.add(cambio_360.core.mesh);
 
 return cambio_360.core.animate.call(null);
 });
-window.onload = cambio_360.core.main;
+window._onload = cambio_360.core.main;
 
-//# sourceMappingURL=core.js.map?rel=1544241694548
+//# sourceMappingURL=core.js.map?rel=1544373036509
