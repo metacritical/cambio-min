@@ -1,1 +1,0 @@
-{"version":3,"file":"\/Volumes\/AppleSDC\/Development\/clojure\/cambioscience\/cambio-360-figwheel\/resources\/public\/js\/compiled\/out\/devtools\/version.js","sources":["version.cljs?rel=1544241698641"],"lineCount":9,"mappings":";AAAA;;AAGA,AAAKA,mCAAgB;AAErB,uCAAA,vCAAMC;AAAN,AACED","names":["devtools.version\/current-version","devtools.version\/get-current-version"]}
